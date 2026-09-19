@@ -10,13 +10,14 @@ import Example7 from "./Components/Ex7";
 import Example8 from "./Components/Ex8";
 import Example9 from "./Components/Ex9";
 import Example10 from "./Components/Ex10";
+import NotFound from "./Components/NotFound";
 
 function App() {
 
   return (
 
     <Routes>
-      
+
       <Route path="/" element={<Home />} />
 
       <Route path="/1" element={<Example1 />} />
@@ -29,6 +30,8 @@ function App() {
       <Route path="/8" element={<Example8 />} />
       <Route path="/9" element={<Example9 />} />
       <Route path="/10" element={<Example10 />} />
+
+      <Route path="*" element={<NotFound />} />
 
     </Routes>
 
