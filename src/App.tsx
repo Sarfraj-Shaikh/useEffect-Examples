@@ -7,6 +7,7 @@ import Example5 from "./Components/Ex5";
 import Example6 from "./Components/Ex6";
 import Example7 from "./Components/Ex7";
 import Example8 from "./Components/Ex8";
+import Example9 from "./Components/Ex9";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Route path="/6" element={<Example6 />} />
       <Route path="/7" element={<Example7 />} />
       <Route path="/8" element={<Example8 />} />
+      <Route path="/9" element={<Example9 />} />
 
     </Routes>
 
