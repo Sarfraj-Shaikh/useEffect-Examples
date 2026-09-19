@@ -25,7 +25,7 @@ const Example3 = () => {
 
                         <div>
 
-                            <p className="text-xs font-semibold uppercase tracking-[0.15em] text-blue-600">
+                            <p className="text-xs font-semibold capitalized tracking-[0.15em] text-blue-600">
                                 useEffect Example
                             </p>
 
